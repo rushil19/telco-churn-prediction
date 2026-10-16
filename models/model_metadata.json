@@ -1,0 +1,63 @@
+{
+  "final_model": "Logistic Regression (tuned)",
+  "final_model_hyperparameters": {
+    "C": 0.003,
+    "class_weight": "balanced",
+    "max_iter": 3000
+  },
+  "other_saved_model": {
+    "name": "Random Forest (tuned)",
+    "file": "models/random_forest_model.joblib"
+  },
+  "input_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges",
+    "tenure_group",
+    "num_services",
+    "has_protection_services",
+    "auto_pay",
+    "charge_per_service"
+  ],
+  "target": "Churn (1 = churned)",
+  "random_state": 42,
+  "versions": {
+    "python": "3.13.16",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0"
+  },
+  "test_set_results": {
+    "Logistic Regression (tuned)": {
+      "Accuracy": 0.749,
+      "Precision": 0.519,
+      "Recall": 0.775,
+      "F1-score": 0.622,
+      "ROC-AUC": 0.837
+    },
+    "Random Forest (tuned)": {
+      "Accuracy": 0.76,
+      "Precision": 0.533,
+      "Recall": 0.767,
+      "F1-score": 0.629,
+      "ROC-AUC": 0.842
+    }
+  }
+}

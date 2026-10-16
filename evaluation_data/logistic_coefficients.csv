@@ -1,0 +1,35 @@
+Feature,Coefficient
+num__tenure,-0.39523620790356706
+num__MonthlyCharges,0.34347079710354556
+num__TotalCharges,-0.13557122377847147
+num__num_services,0.016600241793296455
+num__charge_per_service,0.18285711834397975
+cat__gender_Male,0.01111567241903313
+cat__SeniorCitizen_Yes,0.11808119321526277
+cat__Partner_Yes,-0.05328391892378671
+cat__Dependents_Yes,-0.1319902875306624
+cat__PhoneService_Yes,-0.12283819545430569
+cat__MultipleLines_Yes,0.07052039728064864
+cat__InternetService_DSL,-0.03917325777063856
+cat__InternetService_Fiber optic,0.24273404528130374
+cat__InternetService_No,-0.20366920027149302
+cat__OnlineSecurity_Yes,-0.1300957664495095
+cat__OnlineBackup_Yes,-0.02257665036029855
+cat__DeviceProtection_Yes,0.01266609107198314
+cat__TechSupport_Yes,-0.11463232654753094
+cat__StreamingTV_Yes,0.14229822211939794
+cat__StreamingMovies_Yes,0.14290225066446754
+cat__Contract_Month-to-month,0.3701866769447034
+cat__Contract_One year,-0.1013399058277918
+cat__Contract_Two year,-0.2689551838777395
+cat__PaperlessBilling_Yes,0.2106467951027129
+cat__PaymentMethod_Bank transfer (automatic),-0.05735218759504042
+cat__PaymentMethod_Credit card (automatic),-0.06344279834308275
+cat__PaymentMethod_Electronic check,0.219645590953999
+cat__PaymentMethod_Mailed check,-0.09895901777670404
+cat__tenure_group_0-12,0.20687056139264356
+cat__tenure_group_13-24,-0.0508546005097391
+cat__tenure_group_25-48,-0.07438192620541662
+cat__tenure_group_49-72,-0.08174244743831675
+cat__has_protection_services_1,-0.13748051256431656
+cat__auto_pay_1,-0.12079498593812243
