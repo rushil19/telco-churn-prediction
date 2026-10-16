@@ -16,6 +16,9 @@ Data Science Assignment 1 (Portfolio), Option A. Predicts which telecom customer
 | `DATASET_SOURCE.md` | Where the data came from and what was changed |
 | `requirements.txt` | Python packages (versions used for the reported results) |
 
+## Dataset source
+Telco Customer Churn (IBM sample data for a fictional telecom company), downloaded from Kaggle on 13 October 2026: https://www.kaggle.com/datasets/blastchar/telco-customer-churn. 7,043 customers, 21 columns, about 26.5% churn. The raw CSV in `data/` is unchanged; all cleaning (e.g. 11 blank `TotalCharges` values set to 0) is done in the notebook. Full details and the list of preprocessing steps are in [`DATASET_SOURCE.md`](DATASET_SOURCE.md).
+
 ## How to run
 1. Install Python 3.10+ and run `pip install -r requirements.txt`
 2. Run `jupyter notebook` and open `Churn_Analysis.ipynb`
