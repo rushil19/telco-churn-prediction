@@ -7,7 +7,7 @@
 |---|---|
 | Original source | IBM sample data set for a fictional telecom company, published on Kaggle by BlastChar: https://www.kaggle.com/datasets/blastchar/telco-customer-churn |
 | Copy used | Public IBM GitHub mirror of the same file: https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv |
-| Date accessed | 13 October 2026 (change to the date your group actually downloaded it) |
+| Date accessed | 13 October 2026 |
 | Size | 7,043 rows (customers), 21 columns |
 | Target variable | `Churn` (Yes/No), about 26.5% Yes |
 | Licence / use | Publicly available sample data, used for educational purposes only |
